@@ -9,7 +9,6 @@ use pocketmine\utils\TextFormat;
 use ShellyEssentials\commands\AfkCommand;
 use ShellyEssentials\commands\ClearInventoryCommand;
 use ShellyEssentials\commands\FeedCommand;
-use ShellyEssentials\commands\FlyCommand;
 use ShellyEssentials\commands\FreezeCommand;
 use ShellyEssentials\commands\GamemodeAdventureCommand;
 use ShellyEssentials\commands\GamemodeCreativeCommand;
@@ -45,7 +44,6 @@ class Main extends PluginBase{
 		$this->getServer()->getCommandMap()->registerAll("ShellyEssentials", [
 			new ClearInventoryCommand($this),
 			new FeedCommand($this),
-			new FlyCommand($this),
 			new FreezeCommand($this),
 			new GamemodeCreativeCommand($this),
 			new GamemodeSpectatorCommand($this),
