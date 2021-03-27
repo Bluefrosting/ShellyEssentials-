@@ -8,8 +8,6 @@ permissions:
     default: op
   feed.command:
     default: op
-  fly.command:
-    default: op
   freeze.command:
     default: op
   mute.command:
